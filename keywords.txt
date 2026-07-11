@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map For AVR Task Scheduler
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+AVR_TASK_READY	KEYWORD1
+AVR_TASK_RUNNING	KEYWORD1
+AVR_TASK_SUSPENDED	KEYWORD1
+AVR_TASK_DELETED	KEYWORD1
+eAVRTaskState	KEYWORD1
+xAVRTaskHandle	KEYWORD1
+xAVRSchedulerState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+vAVRTaskCreate	KEYWORD2
+vAVRTaskDelete	KEYWORD2
+vAVRTaskSuspend	KEYWORD2
+vAVRTaskResume	KEYWORD2
+vAVRTaskDelay	KEYWORD2
+vAVRTaskStartScheduler	KEYWORD2
+vAVRTaskStartSchedulerNonBlocking	KEYWORD2
+vAVRTaskEndScheduler	KEYWORD2
+vAVRTaskSchedule	KEYWORD2
+vAVRResetAllTaskTimers	KEYWORD2
+vAVRResetTaskTimer	KEYWORD2
+pxAVRGetCurrentTaskHandle	KEYWORD2
+eAVRGetTaskState	KEYWORD2
+pcAVRGetTaskName	KEYWORD2
+ulAVRGetTaskExecutionCount	KEYWORD2
+vAVRSetTaskInterval	KEYWORD2
+ulAVRGetTaskInterval	KEYWORD2
+vAVRSetTaskPriority	KEYWORD2
+ucAVRGetTaskPriority	KEYWORD2
+ucAVRGetNumberOfTasks	KEYWORD2
+ulAVRGetSchedulerUptime	KEYWORD2
+xAVRGetSchedulerStats	KEYWORD2
+vAVRResetSchedulerStats	KEYWORD2
+AVRDeltaMlsCheck	KEYWORD2
+ulAVRDeltaMlsGet	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
