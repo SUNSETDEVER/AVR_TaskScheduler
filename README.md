@@ -110,5 +110,5 @@ v1.0.0
 - Basic task scheduling
 - Complete examples and documentation
 
-- v1.0.1
+v1.0.1
 - Fixed some problems
