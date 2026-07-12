@@ -1,10 +1,9 @@
-AVR TASK SCHEDULER
-===================
+# AVR TASK SCHEDULER
 
 A lightweight, polling-based task scheduler for AVR Arduino boards with a FreeRTOS-like API.
 
-FEATURES
---------
+## FEATURES
+
 - millis() based timing (no hardware timer required)
 - Supports multiple independent tasks
 - Extremely low memory footprint
@@ -13,8 +12,7 @@ FEATURES
 - Dynamic task management (create/suspend/resume/delete)
 - Pure software implementation, no hardware conflicts
 
-INSTALLATION
-------------
+## INSTALLATION
 
 Method 1: Through Arduino IDE Library Manager
 1. Open Arduino IDE
@@ -27,11 +25,11 @@ Method 2: Manual Installation
 2. In Arduino IDE: Sketch -> Include Library -> Add .ZIP Library
 3. Select the downloaded ZIP file
 
-QUICK START
------------
+## QUICK START
 
 Copy and paste the following code into your Arduino sketch:
 
+```cpp
 #include <AVR_TaskScheduler.h>
 
 xAVRTaskHandle myTask;
@@ -50,13 +48,13 @@ void loop() {
   vAVRTaskSchedule();
   delay(10);
 }
+```
 
-EXAMPLES
---------
+## EXAMPLES
+
 See File -> Examples -> AVR Task Scheduler for more examples.
 
-API REFERENCE
--------------
+## API REFERENCE
 
 Basic Functions
 - vAVRTaskCreate()    : Create a new task
@@ -75,19 +73,19 @@ Utility Functions
 - ulAVRGetTaskInterval()  : Get task interval
 - ucAVRGetNumberOfTasks() : Get number of tasks
 
-COMPATIBILITY
--------------
+## COMPATIBILITY
+
 - Arduino Uno, Nano, Mega (AVR)
 - ESP32, ESP8266
 - Arduino Due, Zero (SAMD)
 - Other Arduino-compatible boards
 
-LICENSE
--------
+## LICENSE
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-CONTRIBUTING
-------------
+## CONTRIBUTING
+
 Issues and Pull Requests are welcome!
 
 1. Fork this repository
@@ -96,22 +94,22 @@ Issues and Pull Requests are welcome!
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-SUPPORT
--------
+## SUPPORT
+
 If you encounter problems or have suggestions:
 - Email: your.email@example.com
 - Issues: https://github.com/yourusername/AVR_TaskScheduler/issues
 - Discussions: https://github.com/yourusername/AVR_TaskScheduler/discussions
 
-CHANGELOG
----------
-v1.0.0
+## CHANGELOG
+
+### v1.0.0
 - Initial release
 - Basic task scheduling
 - Complete examples and documentation
 
-v1.0.1
+### v1.0.1
 - Fixed some problems
 
-v1.0.2
+### v1.0.2
 - Fixed some problems
