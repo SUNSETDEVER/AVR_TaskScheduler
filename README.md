@@ -48,28 +48,28 @@ void loop() {
     vAVRTaskSchedule();
     delay(10);
 }
-Examples
+##Examples
 Check out File -> Examples -> AVR Task Scheduler for more sample sketches.
 
-API Reference
-Basic Functions
+##API Reference
+##Basic Functions
 Function	Description
 vAVRTaskCreate()	Create a new task
 vAVRTaskDelete()	Delete a task
 vAVRTaskSuspend()	Suspend a task
 vAVRTaskResume()	Resume a task
 vAVRTaskDelay()	Delay the current task
-Scheduler Management
+##Scheduler Management
 Function	Description
 vAVRTaskStartScheduler()	Start the scheduler (blocking)
 vAVRTaskStartSchedulerNonBlocking()	Start the scheduler (non-blocking)
 vAVRTaskSchedule()	Execute task scheduling (call in loop())
-Utility Functions
+##Utility Functions
 Function	Description
 vAVRSetTaskInterval()	Set the interval for a task
 ulAVRGetTaskInterval()	Get the interval of a task
 ucAVRGetNumberOfTasks()	Get the current number of tasks
-Compatibility
+##Compatibility
 ✅ Arduino Uno, Nano, Mega (AVR)
 
 ✅ ESP32, ESP8266
@@ -78,10 +78,10 @@ Compatibility
 
 ✅ Other Arduino-compatible boards
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+##Contributing
 Issues and Pull Requests are welcome!
 
 Fork this repository.
