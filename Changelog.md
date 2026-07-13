@@ -10,3 +10,6 @@
 
 ### v1.0.2
 - Fixed some problems
+
+### v1.0.3
+- Complete examples and documentation
