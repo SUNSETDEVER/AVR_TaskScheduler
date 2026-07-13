@@ -97,6 +97,6 @@ Issues and Pull Requests are welcome!
 ## SUPPORT
 
 If you encounter problems or have suggestions:
-- Email: your.email@example.com
-- Issues: https://github.com/yourusername/AVR_TaskScheduler/issues
-- Discussions: https://github.com/yourusername/AVR_TaskScheduler/discussions
+- Email: 973879601@qq.com
+- Issues: https://github.com/SUNSETDEVER/AVR_TaskScheduler/issues
+- Discussions: https://github.com/SUNSETDEVER/AVR_TaskScheduler/discussions
